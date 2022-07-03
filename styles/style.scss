@@ -1,18 +1,34 @@
 // usar o botão Ctrl + Shft + p selecionar live sass:watch sass
-body {
+$cor-primary: red;
+$cor-secundary: white;
+
+@mixin reset {
     margin: 0;
     padding: 0;
+}
+
+@mixin cor-de-texto($cor-de-fundo, $cor-de-texto) {    
+    width: 50%;
+    background-color: $cor-de-fundo;
+    .texto {
+        margin-top: 40%;
+        text-align: center;
+        font-size: 150px;
+        color: $cor-de-texto;
+    }  
+}
+
+body {
+ @include reset();
 }
 
 .container {
     height: 100vh;
     display: flex;
     .esquerdo {
-        width: 50%;
-        background-color: aquamarine;
+       @include cor-de-texto($cor-primary, $cor-secundary);
     }
     .direito {
-        width: 50%;
-        background-color: blueviolet;
+        @include cor-de-texto($cor-secundary,$cor-primary);
     }
 }
