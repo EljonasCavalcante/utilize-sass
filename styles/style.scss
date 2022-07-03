@@ -1,0 +1,18 @@
+// usar o botão Ctrl + Shft + p selecionar live sass:watch sass
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    .esquerdo {
+        width: 50%;
+        background-color: aquamarine;
+    }
+    .direito {
+        width: 50%;
+        background-color: blueviolet;
+    }
+}
