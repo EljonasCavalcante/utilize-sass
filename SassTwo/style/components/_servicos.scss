@@ -1,0 +1,19 @@
+@import '../abstract/variaveis';
+
+#servicos {
+    margin: 80px;
+    h3 {
+        font-size: $tamanho-do-texto / 2.5;
+        color: $cor-primary;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: center;
+        margin: 1rem;
+    }
+    h4 {
+        text-align: center;
+        font-size: $tamanho-do-texto / 2.5;
+        color: $cor-primary;
+        font-weight: 400;
+    }
+}
