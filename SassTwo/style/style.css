@@ -37,4 +37,9 @@ nav ul li a:hover {
 .banner h1 {
   font-size: 3rem;
   color: #352f3d;
+  text-align: center;
+}
+.banner h2 {
+  font-size: 1.5rem;
+  color: #352f3d;
 }/*# sourceMappingURL=style.css.map */
