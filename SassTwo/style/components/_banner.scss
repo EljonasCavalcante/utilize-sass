@@ -16,11 +16,11 @@
     }
     h1{
         font-size: $tamanho-do-texto;
-        color: $cor-primary;
+        color: $cor-primaria;
         text-align: center;      
     }
     h2{
-        font-size: $tamanho-do-texto / 2;
-        color: $cor-primary;
+        font-size: calc($tamanho-do-texto/ 2);
+        color: $cor-primaria;
     }
 }
